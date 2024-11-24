@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="../stream.js" defer></script>
+
+    <title>PENSNIME</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div id="title">
+        <img src="../images/Logos/Logo.png" />
+        <div>PENSNIME</div>
+      </div>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../html/stream.html">Stream</a></li>
+        <li><a href="../html/berita.html">Berita</a></li>
+      </ul>
+      <a href="html/login.html"
+        ><button type="submit" id="login-btn">Login</button></a>
+      <a href="../html/sign-up.html"><button type="submit" id="signin-btn">Sign Up</button></a>
+    </nav>
+
+    <!-- Stream Content -->
+    <div class="stream-container" style="width: 100%; display: flex; justify-content: center;">
+      <div style="width: 30%;">
+          <div id="stream-heading" style="text-align: center;"></div>
+          <div id="stream-heading-divider" style="border-bottom: 2px solid #ccc; margin: 10px 0;"></div>
+          <div class="video-container">
+              <!-- Video Player -->
+              <video id="anime-video" controls style="width: 100%; height: auto;">
+                  <source id="anime-video-source" src="" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+          <p id="anime-sinopsis" style="text-align: justify; margin-top: 10px;"></p>
+          <a id="anime-link" href="#" target="_blank" style="display: block; text-align: center; color: #007BFF; text-decoration: none; margin-top: 10px;"></a>
+      </div>
+    </div>
+
+    <div class="recanime-container" style="margin-top: 30px;">
+      <div id="rec-anime-heading" style="text-align: center; font-size: 1.5rem; font-weight: bold;">Rekomendasi</div>
+      <div id="rec-anime-heading-divider" style="border-bottom: 2px solid #ccc; margin: 10px 0;"></div>
+      <div class="recanime-titles-container">
+        <div class="anime-card">
+          <a href="../html/nonton.html?slug=demon-slayer">
+            <img src="../images/demon slayer poster.jpg" alt="Demon Slayer" />
+          </a>
+          <div class="anime-title">Demon Slayer</div>
+        </div>
+        <div class="anime-card">
+          <a href="../html/nonton.html?slug=one-piece">
+            <img src="../images/onepiece.jpg" alt="One Piece" />
+          </a>
+          <div class="anime-title">One Piece</div>
+        </div>
+        <div class="anime-card">
+          <a href="../html/nonton.html?slug=fullmetal-alchemist-brotherhood">
+            <img src="../images/alc.jpg" alt="Fullmetal Alchemist Brotherhood" />
+          </a>
+          <div class="anime-title">Fullmetal Alchemist Brotherhood</div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="news-container" style="margin-top: 50px; text-align: center;">
+      <div id="news-heading" style="font-size: 1.5rem; margin-top: -5px; font-weight: bold;">Berita Terbaru</div>
+      <div id="news-heading-divider" style="border-bottom: 2px solid #ccc; margin: 0px 0;"></div>
+      <div class="news-items" style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+        <div class="news-item" style="width: 30%; margin: 10px 0; text-align: left;">
+          <h3><a href="../html/berita.html">My Hero Academia Season 6 Akan Segera Tayang!</a></h3>
+          <p>Siap-siap untuk musim baru yang seru dari My Hero Academia, akan tayang musim dingin ini!</p>
+        </div>
+        <div class="news-item" style="width: 30%; margin: 10px 0; text-align: left;">
+          <h3><a href="../html/berita.html">Film Baru Demon Slayer Diumumkan</a></h3>
+          <p>Sebuah film baru dari franchise Demon Slayer segera hadir!</p>
+        </div>
+        <div class="news-item" style="width: 30%; margin: 10px 0; text-align: left;">
+          <h3><a href="../html/berita.html">Studio Ghibli dan Kemitraan dengan Netflix</a></h3>
+          <p>Film klasik Studio Ghibli kini tersedia untuk streaming di Netflix!</p>
+        </div>
+      </div>
+    </div>
+    
+
+    <footer style="width: 100%; padding: 20px 10px; background-color: #333; color: #fff; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+      
+      <ul class="misc-links" style="list-style: none; padding: 0; text-align: center; margin: 0;">
+        <li><a href="" style="color: #fff; text-decoration: none; font-size: 1rem;">Tentang Saya</a></li>
+      </ul>
+      <div style="text-align: center; font-size: 0.9rem; margin-top: 10px;">
+        Dibuat Oleh Stefanus Gilang Yudha Pangestu NRP : 3124510073 D3 PJJ TI PENS
+      </div>
+    </footer>
+  </body>
+</html>
