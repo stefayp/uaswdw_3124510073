@@ -4,27 +4,27 @@ const popularAnimes = [
     {
       title: "Death Note",
       image: "images/death note poster.jpg",
-      // link: "../html/nonton.html?slug=death-note",
+      link: "tes.com",
     },
     {
       title: "Demon Slayer",
       image: "images/demon.jpg",
-      // link: "../html/nonton.html?slug=demon-slayer",
+      link: "tes.com",
     },
     {
       title: "Dragon Ball Z",
       image: "images/dragon-ball-z-anime-wallpaper-preview.jpg",
-      link: "../html/nonton.html?slug=death-note",
+      link: "tes.com"
     },
     {
       title: "My Hero Academia",
       image: "images/mha poster.webp",
-      link: "../html/nonton.html?slug=my-hero-academia",
+      link: "tes.com"
     },
     {
       title: "Naruto",
       image: "images/naruto poster.jpg",
-      link: "../html/nonton.html?slug=naruto",
+      link: "tes.com"
     },
   ];
   
