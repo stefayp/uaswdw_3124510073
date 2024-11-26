@@ -14,17 +14,17 @@ const popularAnimes = [
     {
       title: "Dragon Ball Z",
       image: "images/dragon-ball-z-anime-wallpaper-preview.jpg",
-      link: "tes.com"
+      link: "tes.com",
     },
     {
       title: "My Hero Academia",
       image: "images/mha poster.webp",
-      link: "tes.com"
+      link: "tes.com",
     },
     {
       title: "Naruto",
       image: "images/naruto poster.jpg",
-      link: "tes.com"
+      link: "tes.com",
     },
   ];
   
