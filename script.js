@@ -4,12 +4,12 @@ const popularAnimes = [
     {
       title: "Death Note",
       image: "images/death note poster.jpg",
-      link: "../html/nonton.html?slug=death-note",
+      // link: "../html/nonton.html?slug=death-note",
     },
     {
       title: "Demon Slayer",
       image: "images/demon.jpg",
-      link: "../html/nonton.html?slug=demon-slayer",
+      // link: "../html/nonton.html?slug=demon-slayer",
     },
     {
       title: "Dragon Ball Z",
